@@ -45,7 +45,7 @@ void loop()
     digitalWrite(bulbRed, LOW);
   }
   // If beep distance is between 20 and 5, turn on the yellow bulb
-  else if (distance <= 50 && distance > 10)
+  else if (distance <= 50 && distance > 15)
   {
     digitalWrite(bulbGreen, LOW);
     digitalWrite(bulbYellow, HIGH);
